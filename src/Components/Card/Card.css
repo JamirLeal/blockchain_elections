@@ -1,0 +1,30 @@
+.backGroundCard {
+    background-image: url("../../Data/images/cartillaP.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 820px;
+}
+
+.paddingTF {
+    padding-top: 30px;
+}
+
+.paddingT {
+    padding-top: 9px;
+}
+
+.pressButton {
+    width: 233px;
+    height: 83px;
+}
+
+.pressButton {
+    font-size: 20px !important;
+    color: #FFF;
+    border-radius: 10px !important;
+    border: 5px solid #0c4790 !important;
+    background-color: transparent !important;
+    transition: transform .3s;
+    text-transform: none !important;
+}

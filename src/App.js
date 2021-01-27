@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Components/Home/Home'
 import Voting from './Components/Voting/Voting'
 import Card from './Components/Card/Card'
+import Estadisticas from './Components/Estadisticas/Estadisticas'
 import Registered from './Components/Registered/Registered'
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
@@ -33,6 +34,11 @@ function App() {
       <Route
         exact path='/Registered'
         component={ () => <Registered /> }
+      />
+
+      <Route
+        exact path='/Estadisticas'
+        component={ () => <Estadisticas /> }
       />
 
     </div>

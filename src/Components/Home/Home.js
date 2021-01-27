@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-
+import { Row, Col } from 'react-bootstrap'
 import mexico_flag from '../../../src/Data/images/mexico_flag.png';
 
 class Home extends Component {
@@ -21,6 +21,15 @@ class Home extends Component {
                         </Button>
                     </Link>
                     </header>
+                    <Row style={{ justifyContent: 'flex-end', paddingBottom: '10px' }}>
+                        <Col md={{ size: 4, offset: 8 }}>
+                            <Link to="/Estadisticas" style={{ textDecoration: "none" }}>
+                                <Button className="continueButton" variant="contained" color="primary" style={{ justifyContent: "end" }}>
+                                    Haz clic aquí para ver estadísticas
+                                </Button>
+                            </Link>
+                        </Col>
+                    </Row>
                 </div>
             </div>
         )

@@ -1,0 +1,22 @@
+.backGround {
+    background-image: url("../../Data/images/cartilla.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 820px;
+}
+
+.contentCenter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.camRows {
+    display: grid; 
+    align-items: center;
+    justify-items: center;
+}

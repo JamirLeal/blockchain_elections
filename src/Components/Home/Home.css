@@ -1,0 +1,22 @@
+.continueButton {
+    font-size: 20px !important;
+    color: #FFF;
+    border-radius: 10px !important;
+    border: 5px solid #0c4790 !important;
+    background-color:  #91a7bf !important;
+    transition: transform .3s;
+    text-transform: none !important;
+}
+
+.continueButton:hover {
+    transform: scale(1.3);
+    background-color: #91a7bf;
+}
+
+.Home {
+    border: 25px solid #91a7bf;
+}
+
+.home-frame {
+    border: 15px solid #0c4790;
+}

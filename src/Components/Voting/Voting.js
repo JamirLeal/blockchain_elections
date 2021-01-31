@@ -31,7 +31,7 @@ class Voting extends Component {
 
     setGoOut() {
         if (this.state.goOut === false) {
-            setTimeout(() => this.setState({ goOut: true }), 3000) 
+            setTimeout(() => this.setState({ goOut: true }), 4000) 
         }
     }
 
@@ -84,7 +84,7 @@ class Voting extends Component {
                             </Row>
                             <Row>
                                 <h1 className='textHeader '>
-                                    Pulgar derecho y/o cara
+                                    Pulgar derecho
                                 </h1>
                             </Row>
                             <Row>
@@ -101,7 +101,7 @@ class Voting extends Component {
                                 color="#00BFFF"
                                 height={100}
                                 width={100}
-                                timeout={3000} //3 secs
+                                timeout={4000} //3 secs
                                 />
                             </Row>
                         </Col>

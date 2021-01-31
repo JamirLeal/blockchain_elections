@@ -5,7 +5,7 @@ import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import './Card.css'
 
-import amlo from '../../Data/images/personaje-amlo.png'
+import personaje from '../../Data/images/personaje.jpg'
 import morena from '../../Data/images/logo-morena.png'
 import { Redirect } from 'react-router-dom';
 
@@ -28,14 +28,11 @@ class Card extends Component {
               return (
                 <div className='custom-ui'>
                     <h1>Has seleccionado a:</h1>
-                    <h1>Andrés Manuel López Obrador</h1>
+                    <h1>Candidato A</h1>
                     <h2>¿Estás seguro que deseas votar por él?</h2>
                     <Row>
-                        <Col>
-                            <img src={amlo} height="150px"/>
-                        </Col>
-                        <Col>
-                            <img src={morena} height="150px"/>
+                        <Col md={{ span: 6, offset: 3 }} style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                            <img src={personaje} height="150px"/>
                         </Col>
                     </Row>
                   <Row>

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 
 const state = {
-  labels: ['PRI', 'PAN', 'PRD',
-           'MORENA', 'MOV CIUDADANO', 'PV', 'PT'],
+  labels: ['PARTIDO A', 'PARTIDO B', 'PARTIDO C',
+           'PARTIDO D', 'PARTIDO E', 'PARTIDO F', 'PARTIDO G'],
   datasets: [
     {
       label: 'Cantidad Votos',
